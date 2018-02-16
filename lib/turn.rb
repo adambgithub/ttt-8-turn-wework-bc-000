@@ -43,6 +43,5 @@ def turn(board)
   else
     gets(user_input) until valid_move?(board,index)
   end
-  
 end
   
