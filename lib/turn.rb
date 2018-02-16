@@ -8,7 +8,7 @@ def display_board(board)
   puts " #{board[6]} " "|" " #{board[7]} " "|" " #{board[8]} "
 end
 
-user_input = "1" or 
+user_input = "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9"
 
 def input_to_index(user_input)
   converted_input = user_input.to_i - 1 
