@@ -41,12 +41,12 @@ def turn(board)
   if valid_move?(board,index)
     display_board(board)
   else
+    until valid_move?(board,index) == true 
     gets(user_input)
+end
   end
 end
 
-until valid_move?(board,index) == true 
-  turn(board) 
-end
+
 
   
