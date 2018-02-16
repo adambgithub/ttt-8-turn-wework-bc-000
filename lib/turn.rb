@@ -47,5 +47,6 @@ end
 
 until valid_move?(board,index) == true 
   turn(board) 
+end
 
   
