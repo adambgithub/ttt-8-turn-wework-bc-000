@@ -40,6 +40,7 @@ def turn(board)
   index = input_to_index(user_input)
   converted_input = user_input.to_i - 1
   if valid_move?(board,index)
+    display_board(board)
     move(board, converted_input, value = "X")
   else 
     turn(board)
