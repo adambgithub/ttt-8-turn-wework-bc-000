@@ -45,8 +45,7 @@ def turn(board)
   end
 end
 
-until 
-  valid_move?(board,index) == true 
+until valid_move?(board,index) == true 
   turn(board) 
 
   
