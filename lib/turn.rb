@@ -42,7 +42,7 @@ def turn(board)
     display_board(board)
   else
     until valid_move?(board,index) == true 
-    gets(user_input)
+    turn(board)
     end
   end
 end
